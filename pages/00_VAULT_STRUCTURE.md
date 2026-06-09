@@ -10,21 +10,21 @@
 pages/
 ├── 00_VAULT_STRUCTURE.md          (this file)
 ├── 01_INDEX.md                    (entry point, links to everything)
-├── DAILY/
-│   ├── 2026-06-09.md              (today's capture)
-│   ├── 2026-06-10.md              (etc.)
+├── INBOX/
+│   ├── Raw_Thoughts.md            (uncrystallized ideas)
+│   └── [captured as they emerge]
 ├── DECISIONS/
 │   ├── Temporal_Continuity.md
 │   ├── Infrastructure_Security.md
-│   └── [topic-based]
+│   └── [topic-based, created when decision solidifies]
 ├── PATTERNS/
 │   ├── Communication_Style.md
 │   ├── Decision_Making.md
-│   └── [recurring patterns]
+│   └── [recurring patterns, captured when noticed]
 ├── QUESTIONS/
 │   ├── Open_Technical.md
 │   ├── Open_Philosophical.md
-│   └── [unresolved threads]
+│   └── [unresolved threads, logged when unclear]
 ├── AGENT_THINKING/
 │   ├── Session_Observations.md
 │   ├── Brandon_Profile_Notes.md
@@ -39,33 +39,27 @@ pages/
 
 ## Page Templates
 
-### 1. DAILY/ — Daily Capture
-**File:** `2026-06-09.md`
+### 1. INBOX/ — Raw Uncrystallized Thoughts
+**File:** `Raw_Thoughts.md` (or topic-specific as needed)
 
 ```markdown
-# 2026-06-09
+# [Topic/Idea Name]
 
-**Mood/Energy:** [How are you thinking/working today?]
+**Captured:** [date/time]  
+**Status:** #crystallizing
 
-## Surface Ideas
-- Idea 1: [rough thought]
-  - Why it matters: [initial reasoning]
-- Idea 2: [rough thought]
+## Raw Thought
+[The unfiltered idea, questions, uncertainty]
 
-## Decisions Made
-- [ ] Decision 1: [what, why]
-- [ ] Decision 2
+## Why This Matters
+[Initial sense of importance—may change]
 
-## Conversations
-- [With agent, with self, notable thoughts from elsewhere]
-
-## Tomorrow's Focus
-- [ ] Priority 1
-- [ ] Priority 2
+## What's Unclear
+[What still needs to be thought through?]
 
 ---
-## Agent Response
-[Agent adds clarifying questions, connections, suggestions]
+## Agent Input
+[Questions to help develop this further, connections to other ideas]
 ```
 
 ---
@@ -230,26 +224,30 @@ pages/
 ## How We Use This
 
 ### Brandon's Side
-1. **Daily:** Open today's date page, dump surface ideas
-2. **Weekly:** Review open questions, formalize decisions
-3. **As needed:** Ask me to clarify, challenge, or expand on my observations
+1. **When an idea emerges:** Capture it in INBOX/ (no pressure to write daily)
+2. **When a pattern becomes clear:** Create a page in PATTERNS/
+3. **When a decision solidifies:** Formalize it in DECISIONS/
+4. **When something is unclear:** Log it in QUESTIONS/
+5. **Review as needed:** Read agent's observations, respond with your thinking
 
 ### Agent's Side
-1. **Before each conversation:** Read the latest daily entry + open decisions
-2. **After conversations:** Add observations, ask clarifying questions in vault
-3. **Weekly:** Synthesize patterns, update profile notes
+1. **Before each conversation:** Read recent entries (INBOX, QUESTIONS, PROJECTS)
+2. **During conversation:** Reference what you've captured, ask clarifying questions
+3. **After conversations:** Add observations to AGENT_THINKING/, update profiles/patterns
+4. **As needed:** Suggest connections between your ideas
 
 ### Both
 - Use backlinks (`[[like this]]`) to connect related ideas
 - Tag entries with `#crystallizing` (still rough) vs `#resolved` (settled)
+- Create entries **when there's something to capture**, not on a schedule
 - Review monthly for meta-patterns
 
 ---
 
 ## Starting Point
-- [ ] Create daily template for today (2026-06-09)
-- [ ] Brandon captures initial surface ideas
+- [ ] Create an INBOX entry with initial surface ideas (when one emerges, not by schedule)
 - [ ] Agent reviews and asks clarifying questions
-- [ ] Iterate until structure feels natural
+- [ ] Ideas crystallize into DECISIONS, PATTERNS, or QUESTIONS as appropriate
+- [ ] Iterate—no pressure to write daily
 
 ---

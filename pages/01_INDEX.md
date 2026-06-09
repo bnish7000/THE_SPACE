@@ -6,8 +6,8 @@
 
 ## Quick Navigation
 
-### Daily Capture
-- [[2026-06-09]] — Start here each day
+### Capture & Inbox
+- [[Raw_Thoughts]] — Uncrystallized ideas as they emerge
 
 ### Decision Log
 - [[Temporal_Continuity]] — Idle detection system design
@@ -38,15 +38,13 @@
 
 ## How to Use This
 
-**If you have a surface idea:** Go to today's daily entry and dump it.
+**When an idea emerges:** Capture it in INBOX and let it develop.
 
-**If you want to formalize a decision:** Create a page in DECISIONS/ with the template.
+**When you want to formalize:** Move it to DECISIONS, PATTERNS, or QUESTIONS.
 
-**If you notice a pattern:** Create a page in PATTERNS/.
+**When you want my perspective:** Check AGENT_THINKING for my observations and reasoning.
 
-**If something is unclear:** Add it to QUESTIONS/.
-
-**If you want to see my thinking:** Check AGENT_THINKING/ for my session notes.
+**No daily required.** No pressure. Capture when there's something worth capturing.
 
 ---
 
